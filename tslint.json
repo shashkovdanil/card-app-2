@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-airbnb"],
+  "rules": {
+    "no-any": true,
+    "prefer-array-literal": [true, { "allow-type-parameters": true }],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"],
+    "import-name": false,
+    "semicolon": false,
+    "function-name": false,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "ordered-imports": false,
+    "no-shadowed-variable": false
+  }
+}
